@@ -1,0 +1,19 @@
+{
+  "name": "@jamsite/site-starter-hello-world",
+  "version": "1.0.0",
+  "description": "Jamsite hello-world starter site.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx jamsite start",
+    "inspect": "npx --node-arg=--inspect jamsite start",
+    "dev": "npx jamsite start-dev"
+  },
+  "author": "Aleksandr Tsertkov <tsertkov@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@jamsite/jamsite": "0.0.16"
+  },
+  "devDependencies": {
+    "@jamsite/jamsite-dev": "0.0.21"
+  }
+}
